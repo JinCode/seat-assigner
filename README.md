@@ -2,7 +2,7 @@
 
 ## Problem
 
-Assume even number of students, N are being assigned in unique pairs each day. Design an algorithm that after N-1 days, each students will pair with an unique counterpart. 
+Assume N even number of students are being assigned in unique pairs each day. Design an algorithm that after N-1 days, each students will pair with an unique counterpart. 
 
 ## Algorithm Illustration
 ### Using example of 6 people
