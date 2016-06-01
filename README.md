@@ -16,33 +16,33 @@ Assume even number of students, N are being assigned in unique pairs each day. D
 
 * Always fix person 1, and shift the left column downward by one unit 
 
-| Left | Right |
-| ---- | ----- |
-| 1 | 4 |
-| x | 5 |
-| 2 | 6 |
-| 3 | x |
+    | Left | Right |
+    | ---- | ----- |
+    | 1 | 4 |
+    | x | 5 |
+    | 2 | 6 |
+    | 3 | x |
 
 * Shift the right column upward by one unit  
 
-| Left | Right |
-| ---- | ----- |
-| x | 4 |
-| 1 | 5 |
-| x | 6 |
-| 2 | x |
-| 3 | x |
+    | Left | Right |
+    | ---- | ----- |
+    | x | 4 |
+    | 1 | 5 |
+    | x | 6 |
+    | 2 | x |
+    | 3 | x |
 
 * Move the last person from the left column to the last person of the right column. Move the first person of the right column after person 1 in the left column.  
 
-| Left | Right |
-| ---- | ----- |
-| 1 | 5 |
-| 4 | 6 |
-| 2 | 3 |
+    | Left | Right |
+    | ---- | ----- |
+    | 1 | 5 |
+    | 4 | 6 |
+    | 2 | 3 |
 
-* So, the next pairing plan is
-1 => 5, 4 => 6, 2 => 3
+* So, the next pairing plan is  
+    1 => 5, 4 => 6, 2 => 3
 
 ### There is 5 pairing plans for 6 people
 | Left | Right |
