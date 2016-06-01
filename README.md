@@ -8,11 +8,11 @@ Assume even number of students, N are being assigned in unique pairs each day. D
 ### Using example of 6 people
 * Start with two columns  
 
-| Left | Right |
-| ---- | ----- |
-| 1 | 4 |
-| 2 | 5 |
-| 3 | 6 |
+    | Left | Right |
+    | ---- | ----- |
+    | 1 | 4 |
+    | 2 | 5 |
+    | 3 | 6 |
 
 * Always fix person 1, and shift the left column downward by one unit 
 
